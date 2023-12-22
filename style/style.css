@@ -41,6 +41,7 @@ nav .nav-right-section .menu-icon{
     background-size: contain;
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 nav .nav-right-section img{
@@ -112,6 +113,7 @@ main .main-input .micro-icon{
     width: 18px;
     height: 18px;
     cursor: pointer;
+    margin: 5px;
 }
 
 main .main-input .camera-icon{
@@ -150,10 +152,8 @@ main .main-buttons button:hover{
     box-shadow: 1px #dadce0;
     color: #202124;
 }
-
-/* Pie de página footer*/
-
-.footer1{
+/*----- ofrecido por google---------*/
+main section .ul{
     width: 100%;
     height: 50px;
     position: absolute;
@@ -161,28 +161,37 @@ main .main-buttons button:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: black;
     border-top: 1px solid #e4e4e4;
 }
 
-.footer1 ul{
+main ul li{
     margin: 10px;
     list-style: none;
     display: flex;
     padding-left: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
-.footer1 .footer-bolivia{
-    justify-content: left;
+main ul li{
+    justify-content: center;
 }
 
-.footer1 ul li a{
+main ul li a{
     margin: 10px;
-    color: #5f6368;
+    color: black;
+}
+
+main ul li a:hover{
+    text-decoration: underline;
+
 }
 
 
-
+/*----------------------Pie de página footer--------------------*/
 
 
 footer{
